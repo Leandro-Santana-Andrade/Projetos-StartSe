@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pesquisa de Interesses</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+</head>
+
+<body>
+
+    <nav>    
+        <header>Meu Projeto</header>
+        <section class="nav-itens">
+            <a href="index.html">Home</a>
+            <a href="/index.html#about">Sobre</a>
+        </section>
+    </nav>
+
+    <form action="https://google.com.br">
+        <section id="section-form">
+
+            <h1 class="title-form">Formulário de Interesses</h1>
+            <p>Digite seu nome
+                <input type="text" name="userName" size="40" maxlength="42" placeholder="Digite seu nome completo" />
+            </p>
+            <p>Digite sua profissão
+                <input type="text" name="userJob" size="40" maxlength="42" placeholder="Digite sua profissão" />
+            </p>
+            <p>Nos conte um pouco sobre você</p>
+                <textarea name="userComment" cols="50" rows="4" maxlength="500" placeholder="Digite aqui"></textarea>
+            
+            <p>Você faz exercícios regularmente?
+                <input type="radio" name="exercise" value="1"> Sim
+                <input type="radio" name="exercise" value="1"> Não
+            </p>
+            <p>Por onde você lê sobre seus topicos favoritos:
+                <input type="checkbox" name="books"> Livros
+                <input type="checkbox" name="web"> Sites
+                <input type="checkbox" name="apps"> Aplicativos
+                <input type="checkbox" name="books"> Livros
+                <input type="checkbox" name="magazines"> Revistas
+                <input type="checkbox" name="socialMedia"> Redes Sociais     
+            </p>
+            
+            <p>Qual gênero de filme que voce mais gosta?
+                <select name="movies">
+                    <option></option>
+                    <option value=1>Comédia</option>
+                    <option value=2>Romance</option>
+                    <option value=3>Drama</option>
+                    <option value=4>Terror</option>
+                    <option value=5>Ação</option>
+                    <option value=6>Ficção</option>
+                </select>
+            </p>
+            <input id="form-button" type="submit" value="ENVIAR">
+
+        </section>
+    </form>
+
+</body>
+
+</html>
